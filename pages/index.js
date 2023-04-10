@@ -8,9 +8,8 @@ export default function Home({ datas }) {
   return (
     <div>
       <Head>
-        <title>Hulu</title>
+        <title>Movie</title>
         <meta name="description" content="Created by human" />
-        <link rel="icon" href="/hulu.ico" />
       </Head>
 
       <Header />
