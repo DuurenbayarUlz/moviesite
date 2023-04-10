@@ -1,13 +1,12 @@
-import Image from "next/image";
-import HeaderItem from "./HeaderItem";
 import {
-  HomeIcon,
   BadgeCheckIcon,
   CollectionIcon,
+  HomeIcon,
+  LightningBoltIcon,
   SearchIcon,
   UserIcon,
-  LightningBoltIcon,
 } from "@heroicons/react/outline";
+import HeaderItem from "./HeaderItem";
 
 function Header() {
   return (
@@ -20,12 +19,6 @@ function Header() {
         <HeaderItem title="SEARCH" Icon={SearchIcon} />
         <HeaderItem title="ACCOUNT" Icon={UserIcon} />
       </div>
-      <Image
-        className="object-contained"
-        src="/hulu.ico"
-        width={50}
-        height={50}
-      />
     </header>
   );
 }
