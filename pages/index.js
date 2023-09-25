@@ -8,7 +8,7 @@ export default function Home({ datas }) {
   return (
     <div>
       <Head>
-        <title>Movie</title>
+        <title>Movie Site</title>
         <meta name="description" content="Created by human" />
       </Head>
 
